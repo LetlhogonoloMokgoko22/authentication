@@ -44,6 +44,17 @@
 
   <!-- The main bundle js is generated during the build process -->
   <script src="build/main.js"></script>
-
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBjmPON9ibrCa7UjAIcNyGyvrMSWUYW5zw",
+      authDomain: "authentication-cf34a.firebaseapp.com",
+      databaseURL: "https://authentication-cf34a.firebaseio.com",
+      projectId: "authentication-cf34a",
+      storageBucket: "",
+      messagingSenderId: "993418211677"
+    };
+    firebase.initializeApp(config);
+  </script>
 </body>
 </html>
